@@ -262,16 +262,16 @@
       <table class="table">
         <thead>
           <tr>
-            <th scope="col" on:click={() => handleSort("id")}>Id</th>
-            <th scope="col" on:click={() => handleSort("title")}>Title</th>
-            <th scope="col" on:click={() => handleSort("description")}>Description</th>
-            <th scope="col" on:click={() => handleSort("quantity")}>Quantity</th>
-            <th scope="col" on:click={() => handleSort("author")}>Author</th>
-            <th scope="col" on:click={() => handleSort("category")}>Category</th>
-            <th scope="col" on:click={() => handleSort("lendingPrice")}>Lending Price</th>
-            <th scope="col" on:click={() => handleSort("createdAt")}>Created At</th>
-            <th scope="col" on:click={() => handleSort("updatedAt")}>Updated At</th>
-            <th scope="col" on:click={() => handleSort("deletedAt")}>Deleted At</th>
+            <th scope="col" on:click={() => handleSort()}>Id</th>
+            <th scope="col" on:click={() => handleSort()}>Title</th>
+            <th scope="col" on:click={() => handleSort()}>Description</th>
+            <th scope="col" on:click={() => handleSort()}>Quantity</th>
+            <th scope="col" on:click={() => handleSort()}>Author</th>
+            <th scope="col" on:click={() => handleSort()}>Category</th>
+            <th scope="col" on:click={() => handleSort()}>Lending Price</th>
+            <th scope="col" on:click={() => handleSort()}>Created At</th>
+            <th scope="col" on:click={() => handleSort()}>Updated At</th>
+            <th scope="col" on:click={() => handleSort()}>Deleted At</th>
             <th scope="col">Action</th>
           </tr>
         </thead>

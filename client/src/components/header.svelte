@@ -5,7 +5,7 @@
 
   let expanded = false;
   let showCategories = false;
-  $: userLoggedIn = $authStore.userLoggedIn;
+  $: userLoggedIn = $authStore.userToken;
   $: isAdmin = $authStore.isAdmin;
   let selectedCategory = null;
 

@@ -54,7 +54,7 @@
 
       console.log('User details updated successfully:', data.updateUser);
       // Notify the parent component about the update
-      onUpdate(data.updateUser);
+      onUpdate();
     } catch (error) {
       console.error('Error updating user profile:', error.message);
     }

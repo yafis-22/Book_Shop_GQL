@@ -55,7 +55,7 @@
 
   const logout = () => {
     authStore.set({ userToken: null, isAdmin: false });
-    // Redirect to the login page after logout
+    window.localStorage.removeItem('userToken');
     navigate('/login');
   };
 </script>

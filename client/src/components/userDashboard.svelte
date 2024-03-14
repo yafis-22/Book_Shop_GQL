@@ -133,6 +133,7 @@
 
   const logout = () => {
     authStore.set({ userToken: null, isAdmin: false });
+    window.localStorage.removeItem('userToken');
     navigate("/login");
   };
 </script>

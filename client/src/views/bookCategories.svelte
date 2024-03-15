@@ -1,10 +1,10 @@
 <script>
   import { onMount, afterUpdate } from 'svelte';
-  import BookCard from './bookCard.svelte';
-  import Header from './header.svelte';
-  import Footer from './footer.svelte';
-  import Pagination from './pagination.svelte';
-  import Sorting from './sorting.svelte';
+  import BookCard from '../components/bookCard.svelte';
+  import Header from '../components/header.svelte';
+  import Footer from '../components/footer.svelte';
+  import Pagination from '../components/pagination.svelte';
+  import Sorting from '../components/sorting.svelte';
 
   export let category;
 

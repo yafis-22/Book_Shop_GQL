@@ -7,7 +7,7 @@
    import BookDetails from "../views/bookDetails.svelte";
    import AdminDashboard from "../views/adminDashboard.svelte";
    import UserDashboard from "../views/userDashboard.svelte";
-   import BookCategories from "../components/bookCategories.svelte";
+   import BookCategories from "../views/bookCategories.svelte";
    import Contact from "../views/contact.svelte";
    import SearchResults from "../components/searchResults.svelte";
 </script>

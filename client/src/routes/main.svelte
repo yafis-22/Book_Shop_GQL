@@ -1,14 +1,14 @@
 <script>
    import { Router, Route } from "svelte-routing";
-   import HomePage from "../components/homePage.svelte";
-   import UserLogin from "../components/userLogin.svelte";
-   import UserRegistrationForm from "../components/userRegistrationForm.svelte";
-   import BookManagement from "../components/bookManagement.svelte";
-   import BookDetails from "../components/bookDetails.svelte";
-   import AdminDashboard from "../components/adminDashboard.svelte";
-   import UserDashboard from "../components/userDashboard.svelte";
+   import HomePage from "../views/homePage.svelte";
+   import UserLogin from "../views/userLogin.svelte";
+   import UserRegistrationForm from "../views/userRegistrationForm.svelte";
+   import BookManagement from "../views/bookManagement.svelte";
+   import BookDetails from "../views/bookDetails.svelte";
+   import AdminDashboard from "../views/adminDashboard.svelte";
+   import UserDashboard from "../views/userDashboard.svelte";
    import BookCategories from "../components/bookCategories.svelte";
-   import Contact from "../components/contact.svelte";
+   import Contact from "../views/contact.svelte";
    import SearchResults from "../components/searchResults.svelte";
 </script>
 

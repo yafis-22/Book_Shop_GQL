@@ -2,10 +2,10 @@
   import { onMount } from "svelte";
   import { navigate } from "svelte-routing";
   import authStore from "../stores/authStore";
-  import UserUpdate from "./userUpdate.svelte";
-  import Header from "./header.svelte";
-  import Footer from "./footer.svelte";
-  import ReturnBook from "./returnBook.svelte";
+  import UserUpdate from "../components/userUpdate.svelte";
+  import Header from "../components/header.svelte";
+  import Footer from "../components/footer.svelte";
+  import ReturnBook from "../components/returnBook.svelte";
 
   let user = {};
   let lentBooks = [];

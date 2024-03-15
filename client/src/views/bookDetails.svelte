@@ -1,9 +1,9 @@
 <script>
   import { onMount, afterUpdate } from "svelte";
   import { readable } from "svelte/store";
-  import Header from "./header.svelte";
-  import Footer from "./footer.svelte";
-  import LendBook from "./lendBook.svelte";
+  import Header from "../components/header.svelte";
+  import Footer from "../components/footer.svelte";
+  import LendBook from "../components/lendBook.svelte";
 
   // Define the book variable
   $: book = $bookDetails;

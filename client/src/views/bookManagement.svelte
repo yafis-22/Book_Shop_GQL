@@ -1,11 +1,11 @@
 <script>
   import { onMount } from 'svelte';
   import { writable } from 'svelte/store';
-  import BookCard from './bookCard.svelte';
-  import Header from './header.svelte';
-  import Footer from './footer.svelte';
-  import Sorting from './sorting.svelte';
-  import Pagination from './pagination.svelte';
+  import BookCard from '../components/bookCard.svelte';
+  import Header from '../components/header.svelte';
+  import Footer from '../components/footer.svelte';
+  import Sorting from '../components/sorting.svelte';
+  import Pagination from '../components/pagination.svelte';
 
   // Define the pagination parameters
   let currentPage = 1;

@@ -2,11 +2,11 @@
   import { onMount } from "svelte";
   import { navigate } from "svelte-routing";
   import authStore from "../stores/authStore";
-  import BookTable from "./bookTable.svelte";
-  import UserTable from "./userTable.svelte";
-  import BookAdd from "./bookAdd.svelte";
-  import Header from "./header.svelte";
-  import Footer from "./footer.svelte";
+  import BookTable from "../components/bookTable.svelte";
+  import UserTable from "../components/userTable.svelte";
+  import BookAdd from "../components/bookAdd.svelte";
+  import Header from "../components/header.svelte";
+  import Footer from "../components/footer.svelte";
 
   let activeTab = "addBook";
   let user={};
